@@ -1,0 +1,481 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    cursor: pointer;
+
+}
+
+/* NAVIGATION BAR*/
+
+.navbar-container {
+
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 43px;
+    z-index: 1000;
+
+    background-color: rgba(26, 26, 26, 0.863);
+
+    /* border: solid 1px red; */
+
+}
+
+.navbar {
+
+    width: 100%;
+    max-width: 1050px;
+
+}
+
+.navbar ul {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    width: 100%;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    /* border: solid 1px red; */
+
+}
+
+.navbar-item {
+
+    display: inline;
+    color: #b8b8b8;
+    position: relative;
+
+}
+
+.navbar-item a {
+
+    color: #b8b8b8;
+    text-decoration: none;
+
+}
+
+.navbar-item:hover {
+
+    color: #cecccc;
+
+}
+
+.navbar-item a:hover {
+
+    color: #cecccc;
+
+}
+
+/* Icones */
+
+.apple-icone {
+
+    height: 20px;
+    margin-top: -3px;
+
+    opacity: 60%;
+
+}
+
+.loup-icone {
+
+    height: 15px;
+    margin-top: -1px;
+
+}
+
+.loup-icone2 {
+
+    height: 15px;
+    margin-top: -1px;
+
+    display: none;
+
+}
+
+.sak-icone {
+
+    height: 20px;
+    margin-top: -4px;
+
+    opacity: 60%;
+
+}
+
+/* BODY-DIV */
+
+.div-15-pro {
+
+    margin-top: -10px;
+
+    color: white;
+    height: 736px;
+
+    background-image: url(/img/iphone\ 15\ pro\ titane\ bckgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-15-normal {
+
+    margin-top: 10px;
+
+    background-image: url(img/iphone\ 15\ bckgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    height: 689px;
+
+
+}
+
+.div-watch {
+
+    margin-top: 10px;
+
+    background-image: url(img/Watch\ backgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    height: 689px;
+
+
+}
+
+.div-macbook {
+
+    margin-top: 10px;
+
+    background-image: url(img/MacBook\ bckgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    height: 689px;
+
+}
+
+.bloc-1 {
+
+    height: min-content;
+
+    text-align: center;
+    padding-top: 8%;
+
+}
+
+.bloc-2 {
+
+    height: min-content;
+
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+.bloc-3 {
+
+    height: min-content;
+
+    text-align: center;
+    padding-top: 2%;
+
+    color: #fff;
+
+}
+
+.bloc-4 {
+
+    height: min-content;
+
+    text-align: center;
+    padding-top: 1%;
+
+
+}
+
+.title {
+
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+/* Test */
+
+
+
+/* Fin */
+
+.subtitle {
+
+    margin-top: -40px;
+    font-size: 25px;
+
+}
+
+.subtitle-watch {
+
+    margin-top: -10px;
+    font-size: 25px;
+
+}
+
+.subtitle-red-line {
+
+
+    margin-top: -40px;
+    color: rgb(209, 23, 24);
+    font-size: 20px;
+
+}
+
+.blue-line {
+
+    margin-top: -10px;
+    color: rgb(41, 151, 255);
+
+}
+
+.blue-line-1:hover {
+
+    text-decoration: underline;
+
+}
+
+.blue-line-2:hover {
+
+    text-decoration: underline;
+
+}
+
+.blue-line-truc {
+
+    font-size: 18px;
+    padding-left: 5px;
+
+}
+
+.blue-line p {
+
+    display: inline;
+    font-size: 18px;
+
+}
+
+.blue-line-2 {
+
+    padding-left: 25px;
+
+}
+
+/* Footer */
+
+.footer-container {
+
+    background-color: rgb(245, 245, 247);
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-wrapper {
+
+    max-width: 1000px;
+    color: rgb(163, 163, 165);
+
+}
+
+.footer-mentions {
+
+    font-size: 13px;
+    padding: 0;
+    padding-bottom: 15px;
+    border-bottom: solid 0.8px rgb(191, 191, 194);
+
+}
+
+.footer-mentions ul li {
+
+    list-style: none;
+
+}
+
+.footer-mentions ul {
+
+    padding-left: 20px;
+
+}
+
+.tout-plein-de-choses {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 0.8px rgb(191, 191, 194);
+
+}
+
+.footer-colonnes {
+
+    display: flex;
+    color: rgb(111, 111, 111);
+
+}
+
+.footer-colonnes ul li {
+
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 12px;
+
+}
+
+.footer-colonnes-item:hover {
+
+    text-decoration: underline;
+
+}
+
+.footer-colonnes ul {
+
+    margin-bottom: 30px;
+
+}
+
+.titre-colonne {
+
+    color: #000;
+
+}
+
+.ligne-du-bas {
+
+    font-size: 12px;
+
+}
+
+.ligne-du-bas span {
+
+    color: rgb(41, 151, 255);
+    text-decoration: underline;
+
+}
+
+.tout-en-bas {
+
+    font-size: 13px;
+    padding-top: 15px;
+
+}
+
+.copyright {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.derniere-ligne {
+
+    margin-top: -15px;
+    padding: 0;
+    color: #282828;
+    font-size: 11px;
+
+}
+
+.pr-span-dr-ligne {
+
+    border-right:solid 2px #282828;
+    padding-right: 10px;
+
+}
+
+.ml-span-dr-ligne {
+
+    border-right: solid 2px #282828;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.dr-span-dr-ligne {
+
+    padding-left: 10px;
+
+}
+
+.pr-span-dr-ligne:hover, .ml-span-dr-ligne:hover, .dr-span-dr-ligne:hover {
+
+    text-decoration: underline;
+
+}
+
+@media (max-width: 2000px) {
+    .bloc-1 {
+
+        padding-top: 5%;
+
+    }
+}
+
+@media (max-width: 1050px) {
+    .div-15-pro {
+        background-image: url(img/iphone\ 15\ pro\ bckgrnd\ petit.png);
+    }
+
+    .div-macbook {
+        background-image: url(img/MacBook\ bckgrnd\ petit.png);
+    }
+}
+
+@media (max-width: 800px) {
+    .bloc-1 {
+        padding-top: 10%;
+    }
+
+    .navbar-item {
+        display: none;
+    }
+
+    .loup-icone {
+        display: none;
+    }
+
+    .loup-icone2 {
+        display: inline-block;
+    }
+
+    .navbar ul {
+        justify-content: space-between;
+    }
+}
